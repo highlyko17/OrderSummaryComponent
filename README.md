@@ -1,6 +1,6 @@
 # Order Summary Component
 
-? LINK <br>
+LINK <br>
 http://highlyko17.dothome.co.kr/
 
 <img src="computer.png">
