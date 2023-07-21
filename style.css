@@ -1,0 +1,138 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 630px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px 0 hsla(245, 75%, 52%, .11);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.img img{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.payment_button{
+    margin: auto;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 15px 20px hsl(220, 11%, 74%);
+    width: 300px;
+}
+
+.payment_button:hover{
+    background-color: rgb(146, 130, 237);
+}
+
+#cncl{
+    color: rgb(148, 146, 146);
+    margin: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cncl:hover{
+    color: black;
+}
+
+#chg{
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    margin: auto;
+    font-size: 13px;
+}
+
+#chg:hover{
+    color: rgb(146, 130, 237);
+    text-decoration: none;
+}
+
+.payment_content{
+    background-color: rgb(249, 248, 255);
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    height: 90px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.music_icon{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content_text{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    margin-top: 12px;
+}
+
+.content_text p {
+    color: grey;
+    margin-top: 2px;
+}
+
+#icon{
+    width: 40px;
+    height: 40px;
+}
+
+.select{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content p {
+    color: grey;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+
+    .card{
+        width: 300px;
+        height: 630px;
+        margin-top: 100px;
+    }
+
+    .img img{
+        width: 300px;
+    }
+
+    .payment_button, .payment_content{
+        width: 250px;
+    }
+
+    .content p {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
