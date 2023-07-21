@@ -1,1 +1,1 @@
-# OrderSummaryComponent
+# Order Summary Component
